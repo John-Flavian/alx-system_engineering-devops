@@ -1,0 +1,10 @@
+#!/bin/bash
+
+
+
+chmod u+rwx hello
+
+chmod g+rx hello
+
+chmod o+x hello
+
