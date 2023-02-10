@@ -1,0 +1,16 @@
+#!/bin/bash
+
+
+
+for dir in $(find . -type d)
+
+do
+
+  chmod u+x "$dir"
+
+  chmod g+x "$dir"
+
+  chmod o+x "$dir"
+
+done
+
